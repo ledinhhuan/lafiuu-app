@@ -1,0 +1,52 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  line-height: 1.3;
+  width: 100%;
+  font-family: $font-poppins;
+  color: $gray;
+  letter-spacing: 0.5px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h1 {
+  @include rem(font-size, 32);
+}
+
+h2 {
+  @include rem(font-size, 24);
+}
+
+h3 {
+  @include rem(font-size, 20);
+}
+
+h4 {
+  @include rem(font-size, 16);
+}
+
+h5 {
+  @include rem(font-size, 14);
+}
+
+h6 {
+  @include rem(font-size, 12);
+}
